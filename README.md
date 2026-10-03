@@ -33,3 +33,16 @@ Google Drive
 5. Cron automatically runs the backup process at scheduled intervals.
 6. The Flask dashboard allows administrators to perform backups, restore data, and view backup history.
 7. MySQL stores application users and backup operation logs.
+## Technologies Used
+
+- **Windows Client** — source files and automated file transfer
+- **Ubuntu Server** — backup server and system management
+- **Python** — application and automation scripting
+- **Flask** — web dashboard and backend
+- **MySQL** — user accounts and backup operation logs
+- **Restic** — encrypted, deduplicated backup and restore
+- **rclone** — connection between Restic and Google Drive
+- **Google Drive** — cloud backup storage
+- **Cron** — scheduled backup automation
+- **SCP / SSH** — secure file transfer and remote administration
+- **HTML / CSS / JavaScript** — dashboard interface
